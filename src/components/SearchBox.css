@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+.box{
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 25px;
+	background-color: #cccccc;
+	box-shadow: 10px 13px 9px -3px rgba(0,0,0,0.6);
+}
+
+::placeholder {
+	color: #333300;
+	font-weight: 100;
+	font-family: 'FontAwesome';
+}
