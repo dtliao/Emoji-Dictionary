@@ -5,6 +5,8 @@ import SearchBox from '../components/SearchBox';
 import { Change } from '../database/Change';
 import './App.css';
 import Scroll from '../components/Scroll';
+import ErrorBoundry from '../components/ErrorBoundry';
+
 
 class App extends Component {
 	constructor() {
@@ -31,7 +33,9 @@ class App extends Component {
 					<SearchBox searchChange={this.onSearchChange}/>
 				</div>
 				<Scroll>
-					<List Words={filteredWords}/>
+					<ErrorBoundry>
+						<List Words={filteredWords}/>
+					</ErrorBoundry>
 				</Scroll>
 			</div>
 		);

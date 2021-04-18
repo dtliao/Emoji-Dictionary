@@ -8,11 +8,11 @@ const List = ({ Words }) => {
 				Words.map((word, i) => {
 					return (
 						<Row key={i} name = {word.name}/>
-					)
+					);
 				})
 			}
 		</div>
-	)
+	);
 }
 
 export default List;
