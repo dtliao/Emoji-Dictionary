@@ -6,6 +6,12 @@ img {
 	height: auto;
 }
 
+.rowImg {
+	border-radius: 11%;
+	width: 90px;
+	height: 90px;
+}
+
 h2 {
 	text-align: left;
 	font-family: 'Do Hyeon', sans-serif;
